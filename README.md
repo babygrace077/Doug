@@ -4,7 +4,14 @@ Ce dépôt contient le **dossier de cadrage** pour le projet de stage :
 
 > **Proposition d’une architecture Zero Trust pour le contrôle de fidélité des agents IA : cadre de sécurisation et prototype applicables aux processus métier de l’ART Cameroun.**
 
-## Contenu
+## Livrables Office (à télécharger en premier)
+
+Dossier [`livrables/`](livrables/) — fichiers **Word**, **PowerPoint** et **Excel** prêts à ouvrir :
+
+- Archive complète : [`livrables/TOUS_LES_LIVRABLES_OFFICE.zip`](livrables/TOUS_LES_LIVRABLES_OFFICE.zip)
+- Détail des fichiers : [`livrables/README.md`](livrables/README.md)
+
+## Contenu Markdown (source)
 
 | Document | Description |
 |----------|-------------|
@@ -18,6 +25,7 @@ Ce dépôt contient le **dossier de cadrage** pour le projet de stage :
 
 ## Utilisation rapide
 
-1. Imprimer / envoyer `06-note-defense-encadreur.md` à l’encadreur pour validation.  
-2. Suivre `04-plan-hebdomadaire.md` et `05-diagramme-gantt.md` au quotidien.  
-3. Rédiger le mémoire selon `03-structure-memoire.md`.
+1. Ouvrir / envoyer `livrables/word/01_Note_defense_theme_encadreur.docx` + la présentation PowerPoint associée à l’encadreur.  
+2. Suivre le Gantt Excel et le plan Word semaine par semaine.  
+3. Utiliser le modèle PowerPoint de point d’étape chaque mardi et vendredi.  
+4. Rédiger le mémoire selon `04_Structure_memoire.docx`.
