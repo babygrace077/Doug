@@ -1,0 +1,24 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Figure7" id="fig7">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="pe" value="PE — Policy Engine&#xa;AD ; MFA ; politiques KSC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="220" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="pa" value="PA — Policy Administrator&#xa;USG ; KSC ; RADIUS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="220" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="pep" value="PEP — Enforcement&#xa;USG ; UniFi ; KES ; GPO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5b7b1" vertex="1" parent="1">
+          <mxGeometry x="680" y="100" width="220" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="src" value="Sources : Wazuh (cible) ; inventaire ; journaux" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7" vertex="1" parent="1">
+          <mxGeometry x="360" y="300" width="540" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" style="endArrow=classic;html=1" edge="1" parent="1" source="pe" target="pep"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="endArrow=classic;html=1" edge="1" parent="1" source="pa" target="pep"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
